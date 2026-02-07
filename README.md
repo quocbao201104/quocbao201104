@@ -46,6 +46,6 @@ I'm a passionate Backend Developer with a strong interest in Information Securit
 
 ### 📫 Connect with me
 - 🌐 Portfolio: [baodev.indevs.in](https://baodev.indevs.in/)
-- 📧 Email: [quocbao201104@gmail.com]
+- 📧 Email: [[quocbao201104@gmail.com](mailto:quocbao201104@gmail.com)]
 ---
 *“Code is like humor. When you have to explain it, it’s bad.”*
