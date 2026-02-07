@@ -17,7 +17,7 @@ I'm a passionate Backend Developer with a strong interest in Information Securit
 - **Database:** MySQL (Aiven), Cloudinary (Media handling)
 - **DevOps & Tools:** Vercel, Cloudflare, Git, GitHub
 
-![My Skills](https://skillicons.dev/icons?i=nodejs,express,vue,js,mysql,php,html,css,git,cloudflare,vercel,postman)
+![My Skills](https://skillicons.dev/icons?i=nodejs,express,vue,js,mysql,html,css,git,cloudflare,vercel,postman)
 
 ---
 
@@ -39,8 +39,7 @@ I'm a passionate Backend Developer with a strong interest in Information Securit
 ### 📊 GitHub Stats
 
 <p align="left">
-  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=quocbao201104&show_icons=true&theme=radical&include_all_commits=true&count_private=true" />
-  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=quocbao201104&layout=compact&theme=radical&langs_count=6" />
+  <img height="180em" src="https://github-readme-streak-stats.herokuapp.com/?user=quocbao201104&theme=radical" />
 </p>
 
 ---
