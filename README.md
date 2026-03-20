@@ -1,73 +1,63 @@
-# Hi there, I'm Bao (baodev) 👋
+<h1 align="center">Hi there, I'm Bao (baodev) 👋</h1>
+<h3 align="center">Backend Developer | IT Student (Information Security)</h3>
 
-### Backend Developer | IT Student (Information Security)
-
-I'm a backend-focused developer who enjoys building scalable web applications, designing clean APIs, and improving system performance. I’m especially interested in backend architecture, database optimization, caching, and web security.
-
-- Currently building and improving **TruyenVietHay**, a story reading and audio platform.
-- Studying **Information Technology**, specializing in **Information Security**.
-- Interested in **RESTful API design**, **authentication**, **real-time systems**, and **performance optimization**.
-- Fun fact: I spend my free time at the gym and reading cultivation web novels.
-
----
-
-### Tech Stack
-
-- **Backend:** Node.js, Express.js, RESTful API, Socket.io
-- **Database & Cache:** MySQL, Redis
-- **Authentication & Security:** JWT, RBAC, Google OAuth
-- **Storage & Media:** Cloudinary, Cloudflare R2 / S3-compatible storage
-- **Tools:** Git, GitHub, Postman, Vercel, Cloudflare
-
-![My Skills](https://skillicons.dev/icons?i=nodejs,express,js,ts,mysql,redis,git,github,postman,cloudflare,vercel)
-
----
-
-### Featured Projects
-
-#### TruyenVietHay
-A production-oriented online story reading and audio platform focused on performance, scalability, and user engagement.
-
-- Built backend APIs for stories, chapters, reading history, audio playlists, comments, ratings, and follows.
-- Optimized content delivery with CDN/object storage for chapter and audio assets.
-- Integrated authentication and authorization with **JWT**, **Google OAuth**, and **RBAC**.
-- Used **Redis** and **Socket.io** for caching, real-time notifications, chat, and online presence.
-
-- Live product: [baodev.me](https://baodev.me/)
-- Source code: Private repository
-
-#### Audio Ingest Crawler
-A Node.js service for collecting and processing audio content from YouTube for the story audio pipeline.
-
-- Handles crawling, extraction, and ingestion workflows.
-- Supports structured processing for audio-related content.
-
-- Repository: [truyenviethay-audio-ingest](https://github.com/quocbao201104/truyenviethay-audio-ingest)
-
-#### Node.js Content Crawler
-An automated content ingestion service for parsing and storing structured HTML content.
-
-- Built for clean extraction, normalization, and database storage.
-- Designed with a modular approach for easier maintenance and extension.
-
-- Repository: [nodejs-content-crawler](https://github.com/quocbao201104/nodejs-content-crawler)
-
----
-
-### GitHub Stats
-
-<p align="left">
-  <img height="180em" src="https://github-readme-streak-stats.herokuapp.com/?user=quocbao201104&theme=radical" />
+<p align="center">
+  I'm a backend-focused developer who enjoys building scalable web applications, designing clean APIs, and improving system performance. I’m especially interested in backend architecture, database optimization, caching, and web security.
 </p>
 
 ---
 
-### Connect With Me
+### 👨‍💻 About Me
 
-- Portfolio: [baodev.me](https://baodev.me/)
-- Email: [quocbao201104@gmail.com](mailto:quocbao201104@gmail.com)
-- GitHub: [quocbao201104](https://github.com/quocbao201104)
+- 🚀 **Currently building:** **[TruyenVietHay](https://truyenviethay.id.vn/)**, a high-performance story reading & audio platform.
+- 🎓 **Studying:** Information Technology, specializing in **Information Security**.
+- 💡 **Interests:** RESTful API design, Authentication/Authorization, Real-time systems, and Performance optimization.
+- ⚡ **Fun fact:** When I'm not coding, you can find me lifting weights at the gym 🏋️‍♂️ or diving into cultivation (tu tiên) web novels 📖.
 
 ---
 
-*“Code is like humor. When you have to explain it, it’s bad.”*
+### 🛠️ Tech Stack
+
+**Core & Backend:** Node.js, Express.js, RESTful API, Socket.io <br>
+**Database & Cache:** MySQL, Redis <br>
+**Security & Storage:** JWT, RBAC, Google OAuth, Cloudinary, Cloudflare R2 / S3 <br>
+**Tools & DevOps:** Git, GitHub, Postman, Vercel, Cloudflare
+
+<p align="left">
+  <a href="https://skillicons.dev">
+    <img src="https://skillicons.dev/icons?i=nodejs,express,js,ts,mysql,redis,git,github,postman,cloudflare,vercel" alt="My Skills" />
+  </a>
+</p>
+
+---
+
+### 🚀 Featured Projects
+
+| Project | Description | Links |
+|---|---|---|
+| **[TruyenVietHay](https://truyenviethay.id.vn/)** | Production-oriented online story & audio platform. Features CDN/object storage optimization, JWT/OAuth/RBAC auth, and real-time interaction. | 🌐 [Live Demo](https://truyenviethay.id.vn/) <br> 🔒 *Private Repo* |
+| **[Audio Ingest Crawler](https://github.com/quocbao201104/truyenviethay-audio-ingest)** | Node.js service for collecting and processing structured YouTube audio content for the story pipeline. | 💻 [Source Code](https://github.com/quocbao201104/truyenviethay-audio-ingest) |
+| **[Node.js Content Crawler](https://github.com/quocbao201104/nodejs-content-crawler)** | Automated, modular content ingestion service for parsing, extracting, and normalizing HTML content. | 💻 [Source Code](https://github.com/quocbao201104/nodejs-content-crawler) |
+
+---
+
+### 📊 GitHub Stats
+
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=quocbao201104&layout=compact&theme=radical&hide_border=true" height="180em" alt="Top Languages" />
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=quocbao201104&theme=radical&hide_border=true" height="180em" alt="GitHub Streak" />
+</p>
+
+---
+
+### 📫 Connect With Me
+
+<p align="center">
+  <a href="https://baodev.me/"><img src="https://img.shields.io/badge/Portfolio-baodev.me-000?style=for-the-badge&logo=ko-fi&logoColor=white" alt="Portfolio" /></a>
+  <a href="mailto:quocbao201104@gmail.com"><img src="https://img.shields.io/badge/Email-quocbao201104@gmail.com-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" /></a>
+  <a href="https://github.com/quocbao201104"><img src="https://img.shields.io/badge/GitHub-quocbao201104-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" /></a>
+</p>
+
+<p align="center">
+  <i>“Code is like humor. When you have to explain it, it’s bad.”</i>
+</p>
