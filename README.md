@@ -1,42 +1,60 @@
-# Hi there, I'm Bảo (baodev) 👋 
+# Hi there, I'm Bao (baodev) 👋
 
-### 🚀 Backend Developer | IT Security Student
+### Backend Developer | IT Student (Information Security)
 
-I'm a passionate Backend Developer with a strong interest in Information Security. I love building scalable web applications and exploring the depths of system architecture. Currently, I'm focusing on optimizing database performance and enhancing web security.
+I'm a backend-focused developer who enjoys building scalable web applications, designing clean APIs, and improving system performance. I’m especially interested in backend architecture, database optimization, caching, and web security.
 
-- 🔭 I’m currently working on **TruyenVietHay** - A professional web novel platform.
-- 🎓 Studying **Information Technology** (Specialization in **Information Security**).
-- ⚡ Fun fact: I spend my free time at the gym and reading "Tu Tiên" web novels.
-
----
-
-### 🛠 Tech Stack & Tools
-
-- **Backend:** Node.js, Express.js
-- **Frontend:** Vue.js, HTML5, CSS3, JavaScript
-- **Database:** MySQL (Aiven), Cloudinary (Media handling)
-- **DevOps & Tools:** Vercel, Cloudflare, Git, GitHub
-
-![My Skills](https://skillicons.dev/icons?i=nodejs,express,vue,js,mysql,html,css,git,cloudflare,vercel,postman)
+- Currently building and improving **TruyenVietHay**, a story reading and audio platform.
+- Studying **Information Technology**, specializing in **Information Security**.
+- Interested in **RESTful API design**, **authentication**, **real-time systems**, and **performance optimization**.
+- Fun fact: I spend my free time at the gym and reading cultivation web novels.
 
 ---
 
-### 📌 Featured Projects
+### Tech Stack
 
-#### 📚 [TruyenVietHay](https://github.com/quocbao201104/TruyenVietHay)
-*A comprehensive web novel platform built with Node.js and Vue.js.*
-- Managed complex data relations with **MySQL**.
-- Integrated **Cloudinary** for high-speed image processing.
-- Optimized UI/UX for a seamless reading experience.
+- **Backend:** Node.js, Express.js, RESTful API, Socket.io
+- **Database & Cache:** MySQL, Redis
+- **Authentication & Security:** JWT, RBAC, Google OAuth
+- **Storage & Media:** Cloudinary, Cloudflare R2 / S3-compatible storage
+- **Tools:** Git, GitHub, Postman, Vercel, Cloudflare
 
-#### 🕷️ [Node.js Content Crawler](https://github.com/quocbao201104/nodejs-content-crawler)
-*An automated service for parsing and storing structured HTML content.*
-- Built using Node.js for high-concurrency data processing.
-- Focuses on clean data extraction and structured storage.
+![My Skills](https://skillicons.dev/icons?i=nodejs,express,js,ts,mysql,redis,git,github,postman,cloudflare,vercel)
 
 ---
 
-### 📊 GitHub Stats
+### Featured Projects
+
+#### TruyenVietHay
+A production-oriented online story reading and audio platform focused on performance, scalability, and user engagement.
+
+- Built backend APIs for stories, chapters, reading history, audio playlists, comments, ratings, and follows.
+- Optimized content delivery with CDN/object storage for chapter and audio assets.
+- Integrated authentication and authorization with **JWT**, **Google OAuth**, and **RBAC**.
+- Used **Redis** and **Socket.io** for caching, real-time notifications, chat, and online presence.
+
+- Live product: [baodev.me](https://baodev.me/)
+- Source code: Private repository
+
+#### Audio Ingest Crawler
+A Node.js service for collecting and processing audio content from YouTube for the story audio pipeline.
+
+- Handles crawling, extraction, and ingestion workflows.
+- Supports structured processing for audio-related content.
+
+- Repository: [truyenviethay-audio-ingest](https://github.com/quocbao201104/truyenviethay-audio-ingest)
+
+#### Node.js Content Crawler
+An automated content ingestion service for parsing and storing structured HTML content.
+
+- Built for clean extraction, normalization, and database storage.
+- Designed with a modular approach for easier maintenance and extension.
+
+- Repository: [nodejs-content-crawler](https://github.com/quocbao201104/nodejs-content-crawler)
+
+---
+
+### GitHub Stats
 
 <p align="left">
   <img height="180em" src="https://github-readme-streak-stats.herokuapp.com/?user=quocbao201104&theme=radical" />
@@ -44,8 +62,12 @@ I'm a passionate Backend Developer with a strong interest in Information Securit
 
 ---
 
-### 📫 Connect with me
-- 🌐 Portfolio: [baodev.indevs.in](https://baodev.indevs.in/)
-- 📧 Email: [[quocbao201104@gmail.com](mailto:quocbao201104@gmail.com)]
+### Connect With Me
+
+- Portfolio: [baodev.me](https://baodev.me/)
+- Email: [quocbao201104@gmail.com](mailto:quocbao201104@gmail.com)
+- GitHub: [quocbao201104](https://github.com/quocbao201104)
+
 ---
+
 *“Code is like humor. When you have to explain it, it’s bad.”*
