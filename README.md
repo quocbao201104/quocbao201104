@@ -7,12 +7,12 @@
 
 ---
 
-### 👨‍💻 About Me
+### 👨💻 About Me
 
 - 🚀 **Currently building:** **[TruyenVietHay](https://truyenviethay.id.vn/)**, a high-performance story reading & audio platform.
 - 🎓 **Studying:** Information Technology, specializing in **Information Security**.
 - 💡 **Interests:** RESTful API design, Authentication/Authorization, Real-time systems, and Performance optimization.
-- ⚡ **Fun fact:** When I'm not coding, you can find me lifting weights at the gym 🏋️‍♂️ or diving into cultivation (tu tiên) web novels 📖.
+- ⚡ **Fun fact:** When I'm not coding, you can find me lifting weights at the gym 🏋️♂️ or diving into cultivation (tu tiên) web novels 📖.
 
 ---
 
@@ -37,7 +37,7 @@
 |---|---|---|
 | **[TruyenVietHay](https://truyenviethay.id.vn/)** | Production-oriented online story & audio platform. Features CDN/object storage optimization, JWT/OAuth/RBAC auth, and real-time interaction. | 🌐 [Live Demo](https://truyenviethay.id.vn/) <br> 🔒 *Private Repo* |
 | **[Audio Ingest Crawler](https://github.com/quocbao201104/truyenviethay-audio-ingest)** | Node.js service for collecting and processing structured YouTube audio content for the story pipeline. | 💻 [Source Code](https://github.com/quocbao201104/truyenviethay-audio-ingest) |
-| **[Node.js Content Crawler](https://github.com/quocbao201104/nodejs-content-crawler)** | Automated, modular content ingestion service for parsing, extracting, and normalizing HTML content. | 💻 [Source Code](https://github.com/quocbao201104/nodejs-content-crawler) |
+| **[Content Crawler](https://github.com/quocbao201104/truyenviethay-crawl-content)** | Scalable Crawler & Worker system (Node.js & Python) with Redis for automated story/chapter ingestion. | 💻 [Source Code](https://github.com/quocbao201104/truyenviethay-crawl-content) |
 
 ---
 
