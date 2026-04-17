@@ -43,7 +43,7 @@ Content + audio platform with CDN delivery and real-time interaction
 
 ---
 
-### Arbitex
+### Arbitext
 
 AI-powered document translation workflow system
 
