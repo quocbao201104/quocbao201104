@@ -13,6 +13,7 @@
 - 🚀 **Currently building:** **[TruyenVietHay](https://truyenviethay.id.vn/)** — High-performance story & audio platform with CDN optimization, real-time features, and enterprise-grade security.
 - 🎓 **Studying:** Information Technology — Specializing in **Information Security**.
 - 💡 **Core Interests:** RESTful/GraphQL API design, Authentication & Authorization (JWT, OAuth2, RBAC), Real-time systems, Database optimization, Caching strategies, and Secure architecture.
+- 🤖 **Also building:** a Hermes + Scrapling market intelligence pipeline for cross-border product research and trend validation.
 - ⚡ **Fun fact:** When not coding, I’m either at the gym 🏋️‍♂️ or deep into cultivation (tu tiên) web novels 📖.
 
 ---
@@ -35,11 +36,12 @@
 
 ### 🚀 Featured Projects
 
-| Project | Description | Tech Stack | Links |
-|---------|-------------|------------|-------|
-| **[TruyenVietHay](https://truyenviethay.id.vn/)** | Production-grade story & audio platform. Optimized CDN/object storage, JWT + OAuth + RBAC authentication, real-time interaction. | Node.js, Express, MySQL, Redis, Cloudflare | 🌐 [Live Demo](https://truyenviethay.id.vn/) |
-| **[Audio Ingest Crawler](https://github.com/quocbao201104/truyenviethay-audio-ingest)** | Automated Node.js microservice for YouTube audio collection & processing. | Node.js, Redis | 💻 [Source Code](https://github.com/quocbao201104/truyenviethay-audio-ingest) |
-| **[Content Crawler](https://github.com/quocbao201104/truyenviethay-crawl-content)** | Scalable distributed crawler system (Node.js + Python workers) with Redis queue. | Node.js, Python, Redis | 💻 [Source Code](https://github.com/quocbao201104/truyenviethay-crawl-content) |
+| Project | Description | Links |
+|---|---|---|
+| **[TruyenVietHay](https://truyenviethay.id.vn/)** | Production-oriented online story & audio platform. Features CDN/object storage optimization, JWT/OAuth/RBAC auth, and real-time interaction. | 🌐 [Live Demo](https://truyenviethay.id.vn/) <br> 🔒 *Private Repo* |
+| **[Hermes Market Intelligence Pipeline](https://github.com/quocbao201104/taobao-trend-monitor)** | Hermes-orchestrated product intelligence pipeline built with **Scrapling** for cross-market research. Tracks Taobao trend products, performs Google Lens discovery, extracts Shopee.vn market signals, and generates structured CSV/JSON reports for downstream analysis. | 💻 [Source Code](https://github.com/quocbao201104/taobao-trend-monitor) |
+| **[Audio Ingest Crawler](https://github.com/quocbao201104/truyenviethay-audio-ingest)** | Node.js service for collecting and processing structured YouTube audio content for the story pipeline. | 💻 [Source Code](https://github.com/quocbao201104/truyenviethay-audio-ingest) |
+| **[Content Crawler](https://github.com/quocbao201104/truyenviethay-crawl-content)** | Scalable crawler & worker system (Node.js & Python) with Redis for automated story/chapter ingestion. | 💻 [Source Code](https://github.com/quocbao201104/truyenviethay-crawl-content) |
 
 ---
 
