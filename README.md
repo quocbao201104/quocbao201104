@@ -28,9 +28,12 @@
 
 I build backend systems and AI pipelines for real operational use — not demos.
 
-Most of my work sits at the intersection of reliable infrastructure and AI workflow design: routing, validation, failover, observability. I think about what happens when things go wrong, not just when they work.
+Most of my work sits at the intersection of backend infrastructure and AI workflows:
+routing, validation, failover, and observability.
 
-Security isn't a layer I add at the end. Auth, access control, and data integrity are part of how I design systems from the start.
+I design systems with failure in mind — not just happy paths.
+
+Security is not a layer added later. Auth, access control, and data integrity are built in from the start.
 
 ---
 
