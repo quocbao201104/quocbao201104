@@ -1,30 +1,124 @@
-<h1 align="center">Hi there, I'm Bao (baodev) 👋</h1>
-<h3 align="center">Backend Developer | IT Student (Information Security)</h3>
+<h1 align="center">Bao Dev</h1>
+<p align="center">
+  Backend Developer • Information Security Student • Builder of production-grade systems
+</p>
 
 <p align="center">
-  Passionate backend engineer focused on building scalable, secure, and high-performance systems. 
-  Love designing clean APIs, optimizing databases, implementing robust authentication, and pushing performance to the limit.
+  <a href="https://baodev.me/"><img src="https://img.shields.io/badge/Portfolio-baodev.me-0f172a?style=for-the-badge&logo=vercel&logoColor=white" alt="Portfolio" /></a>
+  <a href="mailto:quocbao201104@gmail.com"><img src="https://img.shields.io/badge/Email-quocbao201104@gmail.com-111827?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" /></a>
+  <a href="https://github.com/quocbao201104"><img src="https://img.shields.io/badge/GitHub-quocbao201104-000000?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" /></a>
+</p>
+
+<p align="center">
+  I build backend systems that are fast, secure, and operationally reliable.
+  My work focuses on API architecture, authentication, data pipelines, AI-assisted workflows,
+  and infrastructure decisions that hold up under real usage.
 </p>
 
 ---
 
-### 👨‍💻 About Me
+## Selected Systems
 
-- 🚀 **Currently building:** **[TruyenVietHay](https://truyenviethay.id.vn/)** — High-performance story & audio platform with CDN optimization, real-time features, and enterprise-grade security.
-- 🎓 **Studying:** Information Technology — Specializing in **Information Security**.
-- 💡 **Core Interests:** RESTful/GraphQL API design, Authentication & Authorization (JWT, OAuth2, RBAC), Real-time systems, Database optimization, Caching strategies, and Secure architecture.
-- 🤖 **Also building:** a Hermes + Scrapling market intelligence pipeline for cross-border product research and trend validation.
-- ⚡ **Fun fact:** When not coding, I’m either at the gym 🏋️‍♂️ or deep into cultivation (tu tiên) web novels 📖.
+### 1. Arbitex
+**AI-powered translation workflow platform for document localization and QA**
+
+**What it does**
+- Ingests documents and normalizes them into structured translation units
+- Runs analyzer → draft → gate → arbiter → review workflows
+- Applies glossary-aware QA, domain rules, and repair pipelines
+- Supports provider routing, workspace/project management, and export-ready processing
+
+**Why it stands out**
+- Built around a multi-stage AI pipeline instead of a one-shot translation flow
+- Focused on operational quality: review routing, telemetry, provider failover, and workspace controls
+- Designed for production-style document processing rather than demo-only AI UX
+
+**Stack / focus**
+- Node.js • TypeScript • Postgres • Redis-style queue patterns
+- AI workflow orchestration
+- Provider routing and arbiter-based repair logic
+
+**Links**
+- 🌐 [Live](https://arbitext.com/)
+- 🔒 Private repository
 
 ---
 
-### 🛠️ Tech Stack
+### 2. Hermes Taobao Market Intelligence Pipeline
+**Hermes-agent orchestrated research pipeline for cross-border product discovery**
 
-**Backend & Core** — Node.js • Express.js • TypeScript • RESTful APIs • Socket.io  
-**Database & Cache** — MySQL • Redis  
-**Security & Auth** — JWT • RBAC • Google OAuth  
-**Storage & Cloud** — Cloudinary • Cloudflare R2 / S3  
-**Tools & DevOps** — Git • GitHub • Postman • Vercel • Cloudflare
+**What it does**
+- Tracks product signals from Taobao
+- Uses Google Lens-style discovery for expansion and validation
+- Extracts downstream market signals from Shopee.vn
+- Produces structured outputs for product research and decision-making
+
+**Why it stands out**
+- Uses **Hermes agents** to coordinate the workflow instead of a single scraper script
+- Designed as an AI-assisted market intelligence system, not just a crawl job
+- Built for repeatable research loops, signal extraction, and trend validation
+
+**Stack / focus**
+- Hermes agent orchestration
+- Scrapling
+- Structured CSV/JSON output pipelines
+- Market intelligence automation
+
+**Links**
+- 💻 [Source Code](https://github.com/quocbao201104/taobao-trend-monitor)
+
+---
+
+## Other Projects
+
+| Project | Description | Links |
+|---|---|---|
+| **TruyenVietHay** | Story and audio platform focused on CDN delivery, object storage optimization, secure auth flows, and real-time interaction. | 🌐 [Live Demo](https://truyenviethay.id.vn/) <br> 🔒 Private Repo |
+| **Audio Ingest Crawler** | Node.js service for collecting and processing structured YouTube audio content for the story pipeline. | 💻 [Source Code](https://github.com/quocbao201104/truyenviethay-audio-ingest) |
+| **Content Crawler** | Scalable crawler and worker system using Node.js, Python, and Redis for automated story and chapter ingestion. | 💻 [Source Code](https://github.com/quocbao201104/truyenviethay-crawl-content) |
+
+---
+
+## What I Work On
+
+- Backend architecture for production applications
+- Authentication and authorization flows: JWT, OAuth2, RBAC
+- Database design and performance optimization
+- Queue-based and event-driven processing
+- AI-assisted backend products and orchestration pipelines
+- Security-minded system design
+
+---
+
+## Tech Stack
+
+**Backend**
+- Node.js
+- Express.js
+- TypeScript
+- JavaScript
+- Socket.io
+- REST APIs
+
+**Data**
+- MySQL
+- Redis
+
+**Security**
+- JWT
+- RBAC
+- Google OAuth
+
+**Storage / Infra**
+- Cloudinary
+- Cloudflare R2 / S3
+- Vercel
+- Cloudflare
+
+**Tooling**
+- Git
+- GitHub
+- Postman
 
 <p align="center">
   <a href="https://skillicons.dev">
@@ -34,18 +128,16 @@
 
 ---
 
-### 🚀 Featured Projects
+## Currently Focused On
 
-| Project | Description | Links |
-|---|---|---|
-| **[TruyenVietHay](https://truyenviethay.id.vn/)** | Production-oriented online story & audio platform. Features CDN/object storage optimization, JWT/OAuth/RBAC auth, and real-time interaction. | 🌐 [Live Demo](https://truyenviethay.id.vn/) <br> 🔒 *Private Repo* |
-| **[Hermes Market Intelligence Pipeline](https://github.com/quocbao201104/taobao-trend-monitor)** | Hermes-orchestrated product intelligence pipeline built with **Scrapling** for cross-market research. Tracks Taobao trend products, performs Google Lens discovery, extracts Shopee.vn market signals, and generates structured CSV/JSON reports for downstream analysis. | 💻 [Source Code](https://github.com/quocbao201104/taobao-trend-monitor) |
-| **[Audio Ingest Crawler](https://github.com/quocbao201104/truyenviethay-audio-ingest)** | Node.js service for collecting and processing structured YouTube audio content for the story pipeline. | 💻 [Source Code](https://github.com/quocbao201104/truyenviethay-audio-ingest) |
-| **[Content Crawler](https://github.com/quocbao201104/truyenviethay-crawl-content)** | Scalable crawler & worker system (Node.js & Python) with Redis for automated story/chapter ingestion. | 💻 [Source Code](https://github.com/quocbao201104/truyenviethay-crawl-content) |
+- Building AI workflow systems that are useful in real operations, not just demos
+- Designing clean backend boundaries between processing, control planes, and user-facing systems
+- Improving reliability with better routing, observability, and failure handling
+- Growing deeper in Information Security while applying it to actual product engineering
 
 ---
 
-### 📊 GitHub Stats
+## GitHub Stats
 
 <p align="center">
   <img src="https://github-readme-stats.vercel.app/api?username=quocbao201104&show_icons=true&theme=radical&hide_border=true&hide_title=true" height="180em" alt="GitHub Stats" />
@@ -53,26 +145,16 @@
   <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=quocbao201104&layout=compact&theme=radical&hide_border=true" height="180em" alt="Top Languages" />
 </p>
 
-### 🏆 GitHub Trophies
-
-<p align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=quocbao201104&theme=radical&no-frame=true&margin-w=15" alt="GitHub Trophies" />
-</p>
-
 ---
 
-### 📫 Connect With Me
+## Contact
 
 <p align="center">
-  <a href="https://baodev.me/"><img src="https://img.shields.io/badge/Portfolio-baodev.me-0A66C2?style=for-the-badge&logo=ko-fi&logoColor=white" alt="Portfolio" /></a>
-  <a href="mailto:quocbao201104@gmail.com"><img src="https://img.shields.io/badge/Email-quocbao201104@gmail.com-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" /></a>
-  <a href="https://github.com/quocbao201104"><img src="https://img.shields.io/badge/GitHub-quocbao201104-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" /></a>
+  <a href="https://baodev.me/">Portfolio</a> •
+  <a href="mailto:quocbao201104@gmail.com">Email</a> •
+  <a href="https://github.com/quocbao201104">GitHub</a>
 </p>
 
 <p align="center">
   <img src="https://visitcount.itsvg.in/api?id=quocbao201104&label=Profile%20Views&color=0A66C2&style=flat" alt="Profile Views" />
-</p>
-
-<p align="center">
-  <i>“Code is like humor. When you have to explain it, it’s bad.”</i>
 </p>
