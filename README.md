@@ -77,7 +77,7 @@ AI-assisted product research and trend signal extraction across Taobao & Shopee.
 
 `Python` `Agent Orchestration` `Structured Outputs` `Web Crawling`
 
-💻 [github.com/quocbao201104/taobao-trend-monitor](https://github.com/quocbao201104/taobao-trend-monitor)
+🔒 Private
 
 ---
 
