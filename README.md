@@ -125,8 +125,8 @@ AI-assisted product research and trend signal extraction across Taobao & Shopee.
 
 ## Currently
 
-- 🔨 Building: [điền project / area đang làm thật — 1 dòng ngắn]
-- 📖 Exploring: [điền thứ đang học — observability, a new framework, etc.]
+- 🔨 Building: Arbitext
+- 📖 Exploring: AI
 
 ---
 
