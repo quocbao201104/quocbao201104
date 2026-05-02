@@ -67,15 +67,15 @@ Production AI workflow for document translation — the goal was quality control
 
 ---
 
-### Hermes — Taobao Intelligence Pipeline
+### MarketGap
 
-AI-assisted product research and trend signal extraction across Taobao & Shopee.
+MarketGap is an AI-assisted product intelligence system for discovering early product opportunities across Taobao, Douyin, and Shopee Vietnam.
 
-- Agent-based orchestration instead of a single crawl script — each agent handles one responsibility, making the system resilient to platform changes
-- Extracts and validates product signals into structured outputs ready for decision-making
-- Built to run reliably over time, not just once
+The system crawls product data from Chinese marketplaces, deduplicates recurring products, checks similar listings on Shopee VN, and classifies market signals such as early-stage opportunities, high-competition products, and items requiring manual review.
 
-`Python` `Agent Orchestration` `Structured Outputs` `Web Crawling`
+AI agents are used to filter risky categories, analyze product-market signals, summarize daily opportunities, and turn raw marketplace data into actionable sourcing insights.
+
+`Python` `Agent Orchestration` `Structured Outputs` `Web Crawling` `Market Intelligence` `E-commerce Analytics`
 
 🔒 Private
 
