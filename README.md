@@ -5,7 +5,7 @@
 </p>
 
 <p align="center">
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=24&pause=1010&color=C75B7AC5&background=0D111700&center=true&vCenter=true&width=435&lines=I+build+backend+systems.;I+craft+retrieval+workflows.;I+design+agent+experiences.;Always+learning%2C+always+shipping.)](https://git.io/typing-svg)
+  [![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=24&pause=1010&color=C75B7AC5&background=0D111700&center=true&vCenter=true&width=435&lines=I+build+backend+systems.;I+craft+retrieval+workflows.;I+design+agent+experiences.;Always+learning%2C+always+shipping.)](https://git.io/typing-svg)
 </p>
 
 <p align="center">
@@ -71,7 +71,7 @@ Production AI workflow for document translation — the goal was quality control
 
 MarketGap is an AI-assisted product intelligence system for discovering early product opportunities across Taobao, Douyin, and Shopee Vietnam.
 
-The system crawls product data from Chinese marketplaces, deduplicates recurring products, checks similar listings on Shopee VN, and classifies market signals such as early-stage opportunities, high-competition products, and items requiring manual review.
+The system crawls product data from Chinese marketplaces, deduplicates recurring products, checks similar listings on Shopee VN, and classifies market signals such as early-stage opportunities, hi[...]
 
 AI agents are used to filter risky categories, analyze product-market signals, summarize daily opportunities, and turn raw marketplace data into actionable sourcing insights.
 
