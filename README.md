@@ -5,7 +5,7 @@
 </p>
 
 <p align="center">
-  I care about systems that keep working when things break — not just when everything is ideal.
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=24&pause=1010&color=C75B7AC5&background=0D111700&center=true&vCenter=true&width=435&lines=I+build+backend+systems.;I+craft+retrieval+workflows.;I+design+agent+experiences.;Always+learning%2C+always+shipping.)](https://git.io/typing-svg)
 </p>
 
 <p align="center">
