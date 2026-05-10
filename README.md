@@ -5,10 +5,6 @@
 </p>
 
 <p align="center">
-  [![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=24&pause=1010&color=C75B7AC5&background=0D111700&center=true&vCenter=true&width=435&lines=I+build+backend+systems.;I+craft+retrieval+workflows.;I+design+agent+experiences.;Always+learning%2C+always+shipping.)](https://git.io/typing-svg)
-</p>
-
-<p align="center">
   <a href="https://baodev.me/">
     <img src="https://img.shields.io/badge/Portfolio-baodev.me-0F6E56?style=flat&logo=googlechrome&logoColor=white" />
   </a>
