@@ -1,117 +1,125 @@
 <h1 align="center">Bao Dev</h1>
 
 <p align="center">
-  Backend Engineer &nbsp;•&nbsp; AI Systems &nbsp;•&nbsp; Security-minded Builder
+  <a href="https://github.com/quocbao201104">
+    <img src="https://readme-typing-svg.demolab.com/?lines=Backend+Engineer;AI+Systems+Builder;Security-minded+Builder&font=Fira+Code&size=22&pause=1200&color=0F6E56&center=true&vCenter=true&width=440&height=45" alt="Typing SVG" />
+  </a>
+</p>
+
+<p align="center">
+  I build backend systems and AI pipelines for real operational use — designed with failure in mind, secured from the start.
 </p>
 
 <p align="center">
   <a href="https://baodev.me/">
-    <img src="https://img.shields.io/badge/Portfolio-baodev.me-0F6E56?style=flat&logo=googlechrome&logoColor=white" />
+    <img src="https://img.shields.io/badge/Portfolio-baodev.me-0F6E56?style=for-the-badge&logo=googlechrome&logoColor=white" />
   </a>
   &nbsp;
   <a href="mailto:quocbao201104@gmail.com">
-    <img src="https://img.shields.io/badge/Email-contact-534AB7?style=flat&logo=gmail&logoColor=white" />
+    <img src="https://img.shields.io/badge/Email-contact-534AB7?style=for-the-badge&logo=gmail&logoColor=white" />
   </a>
   &nbsp;
   <a href="https://github.com/quocbao201104">
-    <img src="https://img.shields.io/badge/GitHub-quocbao201104-24292e?style=flat&logo=github&logoColor=white" />
+    <img src="https://img.shields.io/badge/GitHub-quocbao201104-24292e?style=for-the-badge&logo=github&logoColor=white" />
   </a>
 </p>
 
 ---
 
-## About
+## ⟡ About
 
-I build backend systems and AI pipelines for real operational use — not demos.
+Most of my work sits at the intersection of **backend infrastructure** and **AI workflows** — routing, validation, failover, and observability. I design for the unhappy path, not just the demo. Auth, access control, and data integrity aren't bolted on later; they're part of the foundation.
 
-Most of my work sits at the intersection of backend infrastructure and AI workflows:
-routing, validation, failover, and observability.
+<table>
+<tr>
+<td valign="top" width="50%">
 
-I design systems with failure in mind — not just happy paths.
+**What I focus on**
 
-Security is not a layer added later. Auth, access control, and data integrity are built in from the start.
+- Reliable backend systems under real load
+- AI pipelines with explicit quality control
+- Security as a default, not an afterthought
+- Observability so failures surface early
+
+</td>
+<td valign="top" width="50%">
+
+**How I work**
+
+- Failure-first system design
+- Clear routing over black-box decisions
+- Graceful degradation & failover
+- Ship for operations, not for show
+
+</td>
+</tr>
+</table>
 
 ---
 
-## Selected Work
+## ⟡ Capabilities
 
-### TruyenVietHay — Content & Audio Platform
-
-Vietnamese content platform built for scale — CDN-backed media delivery, real-time features, and content-heavy workloads.
-
-- Optimized media pipeline with object storage + CDN, significantly reducing load time under high traffic
-- Built secure auth flows (JWT, RBAC) and real-time interaction layer
-- Designed queue-based ingestion to handle async content processing reliably
-
-`Node.js` `TypeScript` `MySQL` `Redis` `Cloudflare R2` `Cloudinary`
-
-🌐 [truyenviethay.id.vn](https://truyenviethay.id.vn/) &nbsp;·&nbsp; 🔒 Private
+| Area | Stack |
+|------|-------|
+| **Languages & Runtime** | ![Node.js](https://img.shields.io/badge/Node.js-0F6E56?style=flat-square&logo=nodedotjs&logoColor=white) ![TypeScript](https://img.shields.io/badge/TypeScript-0F6E56?style=flat-square&logo=typescript&logoColor=white) ![Python](https://img.shields.io/badge/Python-0F6E56?style=flat-square&logo=python&logoColor=white) |
+| **Backend & Security** | ![Express](https://img.shields.io/badge/Express-534AB7?style=flat-square&logo=express&logoColor=white) ![Fastify](https://img.shields.io/badge/Fastify-534AB7?style=flat-square&logo=fastify&logoColor=white) ![JWT](https://img.shields.io/badge/Auth-JWT_·_OAuth2_·_RBAC-534AB7?style=flat-square&logo=jsonwebtokens&logoColor=white) |
+| **Data & Processing** | ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-1F6FEB?style=flat-square&logo=postgresql&logoColor=white) ![MySQL](https://img.shields.io/badge/MySQL-1F6FEB?style=flat-square&logo=mysql&logoColor=white) ![Redis](https://img.shields.io/badge/Redis-1F6FEB?style=flat-square&logo=redis&logoColor=white) ![Queues](https://img.shields.io/badge/Queue_Systems-1F6FEB?style=flat-square) |
+| **AI & Pipelines** | ![LLM](https://img.shields.io/badge/LLM_Pipelines-7F77DD?style=flat-square) ![RAG](https://img.shields.io/badge/RAG-7F77DD?style=flat-square) ![Agents](https://img.shields.io/badge/Agent_Orchestration-7F77DD?style=flat-square) |
+| **Infra & Storage** | ![Cloudflare R2](https://img.shields.io/badge/Cloudflare_R2-F38020?style=flat-square&logo=cloudflare&logoColor=white) ![Cloudinary](https://img.shields.io/badge/Cloudinary-F38020?style=flat-square&logo=cloudinary&logoColor=white) ![Vercel](https://img.shields.io/badge/Vercel-F38020?style=flat-square&logo=vercel&logoColor=white) |
 
 ---
 
-### Arbitext — AI Document Translation Pipeline
+## ⟡ Selected Work
 
-Production AI workflow for document translation — the goal was quality control, not speed.
+### 🤖 OmniPilot AI — Autonomous Shopee Sales Agent
+
+> A self-operating sales agent that chats with Shopee buyers 24/7 — reads new messages, understands intent, answers from shop knowledge, and auto-replies on the seller's behalf.
+
+- Grounded replies from shop catalog and policies, with guardrails so the agent stays factual and on-policy
+- Safety-first: risky buyers and off-platform requests are filtered out before any automated reply
+- Built to run unattended — resilient to interruptions, with seller-controlled auto-send and a global kill-switch
+
+<sub>`TypeScript` · `Chrome Extension` · `Node.js` · `LLM + RAG`</sub> &nbsp;·&nbsp; 🔒 Private
+
+---
+
+### 📊 MarketGap — Product Opportunity Intelligence
+
+> Finds market gaps: products with strong demand on 1688 (China) that still face little competition on Shopee Vietnam — telling sellers what's worth importing before the market gets crowded.
+
+**Engine** — Crawls source marketplaces, groups duplicate products, matches them against Shopee listings, and scores each opportunity on demand, margin, competition, and risk to give a clear import / watch / skip call. <sub>`Python` · `Web Crawling` · `Market Intelligence`</sub>
+
+**SaaS** — Dashboard where sellers explore scored opportunities, view product and competitor detail, get market alerts, and save or reserve picks. Includes accounts, subscription tiers, and billing. <sub>`Next.js` · `TypeScript` · `PostgreSQL` · `payOS`</sub>
+
+<sub>🔒 Private</sub>
+
+---
+
+### 📄 Arbitext — AI Document Translation Pipeline
+
+> Production AI workflow for document translation — the goal was quality control, not speed.
 
 - Multi-stage pipeline: analyze → draft → QA → repair → review — each stage validates before passing forward
 - Built provider failover and telemetry so the system degrades gracefully when a model is unavailable
 - Output quality is the metric, not throughput — routing decisions are explicit, not black-box
 
-`Node.js` `TypeScript` `LLM APIs` `Queue Systems` `Redis`
-
-🌐 [arbitext.com](https://arbitext.com/) &nbsp;·&nbsp; 🔒 Private
+<sub>`Node.js` · `TypeScript` · `LLM APIs` · `Queue Systems` · `Redis`</sub> &nbsp;·&nbsp; 🌐 [arbitext.com](https://arbitext.com/) &nbsp;·&nbsp; 🔒 Private
 
 ---
 
-### MarketGap
+### 🎧 TruyenVietHay — Content & Audio Platform
 
-MarketGap is an AI-assisted product intelligence system for discovering early product opportunities across Taobao, Douyin, and Shopee Vietnam.
+> Vietnamese content platform built for scale — CDN-backed media delivery, real-time features, and content-heavy workloads.
 
-The system crawls product data from Chinese marketplaces, deduplicates recurring products, checks similar listings on Shopee VN, and classifies market signals such as early-stage opportunities, hi[...]
+- Optimized media pipeline with object storage + CDN, significantly reducing load time under high traffic
+- Built secure auth flows (JWT, RBAC) and real-time interaction layer
+- Designed queue-based ingestion to handle async content processing reliably
 
-AI agents are used to filter risky categories, analyze product-market signals, summarize daily opportunities, and turn raw marketplace data into actionable sourcing insights.
-
-`Python` `Agent Orchestration` `Structured Outputs` `Web Crawling` `Market Intelligence` `E-commerce Analytics`
-
-🔒 Private
+<sub>`Node.js` · `TypeScript` · `MySQL` · `Redis` · `Cloudflare R2` · `Cloudinary`</sub> &nbsp;·&nbsp; 🌐 [truyenviethay.id.vn](https://truyenviethay.id.vn/) &nbsp;·&nbsp; 🔒 Private
 
 ---
 
-## Tech Stack
-
-**Languages & Runtime**
-
-![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat&logo=nodedotjs&logoColor=white)
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat&logo=typescript&logoColor=white)
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)
-
-**Backend & Security**
-
-![Express](https://img.shields.io/badge/Express-000000?style=flat&logo=express&logoColor=white)
-![JWT](https://img.shields.io/badge/JWT-000000?style=flat&logo=jsonwebtokens&logoColor=white)
-![OAuth2](https://img.shields.io/badge/OAuth2-EB5424?style=flat&logo=auth0&logoColor=white)
-![RBAC](https://img.shields.io/badge/RBAC-005C84?style=flat)
-
-**Data & Processing**
-
-![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=flat&logo=mysql&logoColor=white)
-![Redis](https://img.shields.io/badge/Redis-DC382D?style=flat&logo=redis&logoColor=white)
-![Queues](https://img.shields.io/badge/Queue_Systems-FF6600?style=flat)
-
-**Infra & Storage**
-
-![Cloudflare R2](https://img.shields.io/badge/Cloudflare_R2-F38020?style=flat&logo=cloudflare&logoColor=white)
-![Cloudinary](https://img.shields.io/badge/Cloudinary-3448C5?style=flat&logo=cloudinary&logoColor=white)
-![Vercel](https://img.shields.io/badge/Vercel-000000?style=flat&logo=vercel&logoColor=white)
-
-**AI & Pipelines**
-
-![LLM Pipelines](https://img.shields.io/badge/LLM_Pipelines-7F77DD?style=flat)
-![Agent Orchestration](https://img.shields.io/badge/Agent_Orchestration-534AB7?style=flat)
-
----
-
-## Other Projects
+## ⟡ Other Projects
 
 **Audio Ingest Crawler** — YouTube audio processing pipeline with queue-based ingestion and async handling
 
@@ -119,18 +127,15 @@ AI agents are used to filter risky categories, analyze product-market signals, s
 
 ---
 
-## Currently
-
-- 🔨 Building: Arbitext
-- 📖 Exploring: AI
-
----
-
-## GitHub Activity
+## ⟡ GitHub Activity
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=quocbao201104&show_icons=true&theme=radical&hide_border=true&hide_title=true&count_private=true" height="165em" />
+  <img src="https://github-readme-stats.vercel.app/api?username=quocbao201104&show_icons=true&theme=radical&hide_border=true&hide_title=true&count_private=true&include_all_commits=true" height="165em" />
   <img src="https://github-readme-streak-stats.herokuapp.com/?user=quocbao201104&theme=radical&hide_border=true" height="165em" />
+</p>
+
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=quocbao201104&layout=compact&theme=radical&hide_border=true&langs_count=8&count_private=true" height="155em" />
 </p>
 
 ---
