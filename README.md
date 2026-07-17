@@ -71,6 +71,19 @@ Most of my work sits at the intersection of **backend infrastructure** and **AI 
 
 ---
 
+## ⟡ GitHub Activity
+
+<p align="center">
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=quocbao201104&theme=radical" alt="GitHub contribution activity" />
+</p>
+
+<p align="center">
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=quocbao201104&theme=radical" height="165em" alt="GitHub statistics" />
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=quocbao201104&theme=radical" height="165em" alt="Repositories by language" />
+</p>
+
+---
+
 ## ⟡ Selected Work
 
 ### 🤖 OmniPilot — AI Sales Agent for Shopee
@@ -126,19 +139,6 @@ Most of my work sits at the intersection of **backend infrastructure** and **AI 
 - **[Audio Ingest](https://github.com/quocbao201104/Audio-Ingest)** — YouTube audio processing pipeline with queue-based ingestion.
 - **[Crawl Novel](https://github.com/quocbao201104/Crawl-Novel)** — content crawler with deduplication and queue orchestration.
 - **[Portfolio source](https://github.com/quocbao201104/quocbao201104.github.io)** — source for my personal website, [baodev.me](https://baodev.me/).
-
----
-
-## ⟡ GitHub Activity
-
-<p align="center">
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=quocbao201104&theme=radical" alt="GitHub contribution activity" />
-</p>
-
-<p align="center">
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=quocbao201104&theme=radical" height="165em" alt="GitHub statistics" />
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=quocbao201104&theme=radical" height="165em" alt="Repositories by language" />
-</p>
 
 ---
 
