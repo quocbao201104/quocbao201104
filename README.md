@@ -132,12 +132,12 @@ Most of my work sits at the intersection of **backend infrastructure** and **AI 
 ## ⟡ GitHub Activity
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=quocbao201104&show_icons=true&theme=radical&hide_border=true&hide_title=true&count_private=true&include_all_commits=true" height="165em" />
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=quocbao201104&theme=radical&hide_border=true" height="165em" />
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=quocbao201104&theme=radical" alt="GitHub contribution activity" />
 </p>
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=quocbao201104&layout=compact&theme=radical&hide_border=true&langs_count=8&count_private=true" height="155em" />
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=quocbao201104&theme=radical" height="165em" alt="GitHub statistics" />
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=quocbao201104&theme=radical" height="165em" alt="Repositories by language" />
 </p>
 
 ---
