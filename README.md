@@ -71,7 +71,13 @@ Most of my work sits at the intersection of **backend infrastructure** and **AI 
 
 ---
 
-## ⟡ GitHub Activity
+## ⟡ Public GitHub Activity
+
+These cards highlight activity visible from my public GitHub work. GitHub's
+profile calendar may also include anonymized contributions from private
+repositories when that setting is enabled.
+
+<sub><a href="https://docs.github.com/en/account-and-profile/how-tos/contribution-settings/manage-visibility-settings-for-private-contributions-and-achievements">How GitHub handles private contributions</a></sub>
 
 <p align="center">
   <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=quocbao201104&theme=radical" alt="GitHub contribution activity" />
