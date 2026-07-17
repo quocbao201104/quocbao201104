@@ -1,110 +1,147 @@
-<h1 align="center">Bảo / baodev</h1>
+<h1 align="center">Bảo</h1>
+
+<p align="center"><sub>@baodev</sub></p>
 
 <p align="center">
-  <strong>Backend &amp; AI systems engineer</strong><br />
-  I build reliable automation for real operations — with safety, observability,
-  and the unhappy path designed in.
+  <a href="https://github.com/quocbao201104">
+    <img src="https://readme-typing-svg.demolab.com/?lines=Backend+Engineer;AI+Systems+Builder;Security-minded+Builder&font=Fira+Code&size=22&pause=1200&color=0F6E56&center=true&vCenter=true&width=440&height=45" alt="Typing SVG" />
+  </a>
 </p>
 
 <p align="center">
-  <a href="https://baodev.me/"><strong>Portfolio</strong></a>
-  ·
-  <a href="mailto:quocbao201104@gmail.com"><strong>Email</strong></a>
-  ·
-  <a href="#omnipilot"><strong>Current focus: OmniPilot</strong></a>
+  I build backend systems and AI pipelines for real operational use — designed with failure in mind, secured from the start.
+</p>
+
+<p align="center">
+  <a href="https://baodev.me/">
+    <img src="https://img.shields.io/badge/Portfolio-baodev.me-0F6E56?style=for-the-badge&logo=googlechrome&logoColor=white" />
+  </a>
+  &nbsp;
+  <a href="mailto:quocbao201104@gmail.com">
+    <img src="https://img.shields.io/badge/Email-contact-534AB7?style=for-the-badge&logo=gmail&logoColor=white" />
+  </a>
+  &nbsp;
+  <a href="https://github.com/quocbao201104">
+    <img src="https://img.shields.io/badge/GitHub-quocbao201104-24292e?style=for-the-badge&logo=github&logoColor=white" />
+  </a>
 </p>
 
 ---
 
-## OmniPilot
+## ⟡ About
 
-> **A seller-controlled AI sales agent for Shopee.**
-> It reads new buyer messages, identifies intent, grounds answers in shop
-> catalog and policies, and can reply on the seller's behalf.
+Most of my work sits at the intersection of **backend infrastructure** and **AI workflows** — routing, validation, failover, and observability. I design for the unhappy path, not just the demo. Auth, access control, and data integrity aren't bolted on later; they're part of the foundation.
 
-OmniPilot is my main project: a practical AI workflow that can operate
-continuously without removing the seller's authority over what gets sent.
+<table>
+<tr>
+<td valign="top" width="50%">
 
-- **Grounded** — answers come from the shop's catalog and policies, not an
-  unconstrained model response.
-- **Guarded** — risky buyers and off-platform requests are filtered before an
-  automated reply can be sent.
-- **Seller-controlled** — auto-send remains configurable, with a global
-  kill switch over automated replies.
-- **Resilient** — the workflow is designed to run unattended and recover from
-  interruptions.
+**What I focus on**
 
-`TypeScript` · `Chrome Extension` · `Node.js` · `LLM` · `RAG`
+- Reliable backend systems under real load
+- AI pipelines with explicit quality control
+- Security as a default, not an afterthought
+- Observability so failures surface early
 
-### Product loop
+</td>
+<td valign="top" width="50%">
 
-```mermaid
-flowchart TB
-    A["New buyer message"] --> B["Understand intent"]
-    B --> C["Retrieve catalog + policy"]
-    C --> D["Apply safety checks"]
-    D --> E["Seller-controlled auto-send"]
-    E --> F["Reply"]
-    H["Global kill switch"] -.-> E
-```
+**How I work**
 
-> [!NOTE]
-> OmniPilot is a private project. This overview intentionally focuses on
-> product behavior and the engineering boundaries that make the automation
-> safe to operate.
+- Failure-first system design
+- Clear routing over black-box decisions
+- Graceful degradation & failover
+- Ship for operations, not for show
+
+</td>
+</tr>
+</table>
 
 ---
 
-## Engineering focus
+## ⟡ Capabilities
 
-I work where backend infrastructure and AI workflows meet:
-
-- **Reliable backends** — explicit routing, validation, failover, queues, and
-  observability.
-- **Controlled AI workflows** — grounded retrieval, quality checks, guardrails,
-  and clear decision paths.
-- **Security by default** — authentication, access control, and data integrity
-  belong in the foundation.
-
-**Core:** `TypeScript` · `Node.js` · `Python`
-
-**Data:** `PostgreSQL` · `MySQL` · `Redis` · `Queue systems`
-
-**AI systems:** `RAG` · `LLM pipelines` · `Agent orchestration`
-
-**Infrastructure:** `Cloudflare R2` · `Cloudinary` · `Vercel`
+| Area | Stack |
+|------|-------|
+| **Languages & Runtime** | ![Node.js](https://img.shields.io/badge/Node.js-0F6E56?style=flat-square&logo=nodedotjs&logoColor=white) ![TypeScript](https://img.shields.io/badge/TypeScript-0F6E56?style=flat-square&logo=typescript&logoColor=white) ![Python](https://img.shields.io/badge/Python-0F6E56?style=flat-square&logo=python&logoColor=white) |
+| **Backend & Security** | ![Express](https://img.shields.io/badge/Express-534AB7?style=flat-square&logo=express&logoColor=white) ![Fastify](https://img.shields.io/badge/Fastify-534AB7?style=flat-square&logo=fastify&logoColor=white) ![JWT](https://img.shields.io/badge/Auth-JWT_·_OAuth2_·_RBAC-534AB7?style=flat-square&logo=jsonwebtokens&logoColor=white) |
+| **Data & Processing** | ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-1F6FEB?style=flat-square&logo=postgresql&logoColor=white) ![MySQL](https://img.shields.io/badge/MySQL-1F6FEB?style=flat-square&logo=mysql&logoColor=white) ![Redis](https://img.shields.io/badge/Redis-1F6FEB?style=flat-square&logo=redis&logoColor=white) ![Queues](https://img.shields.io/badge/Queue_Systems-1F6FEB?style=flat-square) |
+| **AI & Pipelines** | ![LLM](https://img.shields.io/badge/LLM_Pipelines-7F77DD?style=flat-square) ![RAG](https://img.shields.io/badge/RAG-7F77DD?style=flat-square) ![Agents](https://img.shields.io/badge/Agent_Orchestration-7F77DD?style=flat-square) |
+| **Infra & Storage** | ![Cloudflare R2](https://img.shields.io/badge/Cloudflare_R2-F38020?style=flat-square&logo=cloudflare&logoColor=white) ![Cloudinary](https://img.shields.io/badge/Cloudinary-F38020?style=flat-square&logo=cloudinary&logoColor=white) ![Vercel](https://img.shields.io/badge/Vercel-F38020?style=flat-square&logo=vercel&logoColor=white) |
 
 ---
 
-## Public code
+## ⟡ Selected Work
 
-- **[Audio Ingest](https://github.com/quocbao201104/Audio-Ingest)** —
-  a YouTube audio-processing pipeline with queue-based ingestion.
-- **[Crawl Novel](https://github.com/quocbao201104/Crawl-Novel)** —
-  content crawler for the TruyenVietHay platform.
-- **[Portfolio source](https://github.com/quocbao201104/quocbao201104.github.io)** —
-  source for my personal website, [baodev.me](https://baodev.me/).
+### 🤖 OmniPilot — AI Sales Agent for Shopee
 
-<details>
-<summary><strong>More selected work</strong></summary>
+> My main project: a seller-controlled AI sales agent that chats with Shopee buyers 24/7 — reads new messages, understands intent, answers from shop knowledge, and auto-replies on the seller's behalf.
 
-- **MarketGap** — product-opportunity intelligence that compares demand on
-  1688 with competition on Shopee Vietnam. `Python` · `Next.js` · `PostgreSQL`
-  · Private
-- **Arbitext** — a document-translation workflow with
-  staged analysis, drafting, QA, repair, provider failover, and telemetry.
-  `Node.js` · `TypeScript` · `Redis` · Private
-- **[TruyenVietHay](https://truyenviethay.id.vn/)** — a Vietnamese content and
-  audio platform with CDN-backed media delivery and queue-based ingestion.
-  `Node.js` · `TypeScript` · `MySQL` · `Redis` · Private
+- Grounded replies from shop catalog and policies, with guardrails so the agent stays factual and on-policy
+- Safety-first: risky buyers and off-platform requests are filtered out before any automated reply
+- Built to run unattended — resilient to interruptions, with seller-controlled auto-send and a global kill-switch
 
-</details>
+<sub>`TypeScript` · `Chrome Extension` · `Node.js` · `LLM + RAG`</sub> &nbsp;·&nbsp; 🔒 Private
+
+---
+
+### 📊 MarketGap — Product Opportunity Intelligence
+
+> Finds market gaps: products with strong demand on 1688 (China) that still face little competition on Shopee Vietnam — telling sellers what's worth importing before the market gets crowded.
+
+**Engine** — Crawls source marketplaces, groups duplicate products, matches them against Shopee listings, and scores each opportunity on demand, margin, competition, and risk. <sub>`Python` · `Web Crawling` · `Market Intelligence`</sub>
+
+**SaaS** — Dashboard where sellers explore scored opportunities, view product and competitor detail, get market alerts, and save or reserve picks. <sub>`Next.js` · `TypeScript` · `PostgreSQL` · `payOS`</sub>
+
+<sub>🔒 Private</sub>
+
+---
+
+### 📄 Arbitext — AI Document Translation Pipeline
+
+> Production AI workflow for document translation — the goal was quality control, not speed.
+
+- Multi-stage pipeline: analyze → draft → QA → repair → review
+- Provider failover and telemetry so the system degrades gracefully when a model is unavailable
+- Explicit routing decisions instead of black-box behavior
+
+<sub>`Node.js` · `TypeScript` · `LLM APIs` · `Queue Systems` · `Redis`</sub> &nbsp;·&nbsp; 🌐 [arbitext.com](https://arbitext.com/) &nbsp;·&nbsp; 🔒 Private
+
+---
+
+### 🎧 TruyenVietHay — Content & Audio Platform
+
+> Vietnamese content platform built for scale — CDN-backed media delivery, real-time features, and content-heavy workloads.
+
+- Optimized media pipeline with object storage + CDN
+- Secure auth flows with JWT and RBAC
+- Queue-based ingestion for reliable asynchronous processing
+
+<sub>`Node.js` · `TypeScript` · `MySQL` · `Redis` · `Cloudflare R2` · `Cloudinary`</sub> &nbsp;·&nbsp; 🌐 [truyenviethay.id.vn](https://truyenviethay.id.vn/) &nbsp;·&nbsp; 🔒 Private
+
+---
+
+## ⟡ Other Projects
+
+- **[Audio Ingest](https://github.com/quocbao201104/Audio-Ingest)** — YouTube audio processing pipeline with queue-based ingestion.
+- **[Crawl Novel](https://github.com/quocbao201104/Crawl-Novel)** — content crawler with deduplication and queue orchestration.
+- **[Portfolio source](https://github.com/quocbao201104/quocbao201104.github.io)** — source for my personal website, [baodev.me](https://baodev.me/).
+
+---
+
+## ⟡ GitHub Activity
+
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=quocbao201104&show_icons=true&theme=radical&hide_border=true&hide_title=true&count_private=true&include_all_commits=true" height="165em" />
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=quocbao201104&theme=radical&hide_border=true" height="165em" />
+</p>
+
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=quocbao201104&layout=compact&theme=radical&hide_border=true&langs_count=8&count_private=true" height="155em" />
+</p>
 
 ---
 
 <p align="center">
-  Open to backend and AI systems work where reliability and safe automation matter.<br />
-  <a href="https://baodev.me/">baodev.me</a>
-  ·
-  <a href="mailto:quocbao201104@gmail.com">quocbao201104@gmail.com</a>
+  <sub>Open to backend / AI systems roles where reliability actually matters &nbsp;·&nbsp; <a href="mailto:quocbao201104@gmail.com">reach out</a></sub>
 </p>
