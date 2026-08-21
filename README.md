@@ -76,7 +76,7 @@ Most of my work sits at the intersection of **backend systems**, **AI workflows*
 
 ## ⟡ Shipped
 
-### 🎧 TruyenVietHay — Content & Audio Platform
+### 🎧 [TruyenVietHay](https://github.com/quocbao201104/TruyenVietHay) — Content & Audio Platform
 
 > A completed full-stack Vietnamese reading and audio platform built around CDN-backed content delivery, realtime features, background processing, and mobile-first UX.
 
@@ -85,7 +85,7 @@ Most of my work sits at the intersection of **backend systems**, **AI workflows*
 - Realtime chat/notifications, PWA support, JWT + Google OAuth, rate limiting, and production deployment tooling
 - Separate media/content paths for image, JSON, and audio-heavy workloads instead of pushing everything through the application server
 
-<sub>`Vue 3` · `TypeScript` · `Node.js` · `MySQL` · `Redis` · `Cloudflare R2` · `Cloudinary`</sub> &nbsp;·&nbsp; **Completed system** &nbsp;·&nbsp; 🔒 Source private for now
+<sub>`Vue 3` · `TypeScript` · `Node.js` · `MySQL` · `Redis` · `Cloudflare R2` · `Cloudinary`</sub> &nbsp;·&nbsp; **Completed system** &nbsp;·&nbsp; 🌐 [Public source](https://github.com/quocbao201104/TruyenVietHay)
 
 ---
 
