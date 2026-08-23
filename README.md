@@ -72,6 +72,18 @@ Most of my work sits at the intersection of **backend systems**, **AI workflows*
 
 <sub>`TypeScript` · `Chrome MV3` · `Fastify` · `IndexedDB/Dexie` · `LLM + RAG`</sub> &nbsp;·&nbsp; **Active commercial project** &nbsp;·&nbsp; 🔒 Private source
 
+### 🧭 [Marketing Practitioner](https://github.com/quocbao201104/marketing-practitioner-skill) — Research-first Marketing Decision System for AI Agents
+
+> An open-source agent skill and research track for turning messy market evidence into bounded marketing decisions — without collapsing research, strategy, platform behavior, commerce state, causality, and copy into one prompt.
+
+- **Decision-first runtime** — starts from the current job, freezes already-resolved decisions, identifies the open decision, and loads only the knowledge that can materially change it
+- **Addressable JIT knowledge** — a lightweight routing layer maps logical knowledge IDs to the smallest relevant handbook/platform section, with deterministic lookup, integrity checks, and capability-aware fallback
+- **Evidence and claim discipline** — keeps observation, interpretation, causality, attribution, platform signals, product truth, commercial state, and uncertainty distinct instead of promoting weak evidence into stronger claims
+- **Cross-environment reasoning** — shared models cover customer research, positioning, messaging, diagnosis, experimentation, localization, social/content distribution, commerce, product discovery, and agent-mediated shopping across platform-specific modules
+- **Adversarial evaluation** — runtime architecture, routing, conceptual compression, and commerce extensions are reviewed with explicit claim ceilings rather than treating passing tests as proof of universal correctness
+
+<sub>`Agent Skill` · `Python tooling` · `JIT Knowledge Routing` · `Marketing Research` · `Commerce` · `Evaluation`</sub> &nbsp;·&nbsp; **Building in public / research in progress** &nbsp;·&nbsp; 🌐 [MIT-licensed open source](https://github.com/quocbao201104/marketing-practitioner-skill)
+
 ---
 
 ## ⟡ Shipped
@@ -120,11 +132,10 @@ Most of my work sits at the intersection of **backend systems**, **AI workflows*
 
 ## ⟡ Open Engineering
 
-These are smaller or more inspectable public artifacts that show the engineering behind the claims above.
+These are smaller or more inspectable public artifacts that show additional engineering work beyond the primary projects above.
 
-- **[BAO.OS / Portfolio](https://github.com/quocbao201104/quocbao201104.github.io)** — interactive portfolio with command routing, multiple RAG modes/personas, Supabase pgvector retrieval, local deterministic embeddings, an OpenAI-compatible API surface, and server-side redaction boundaries.
+- **[BAO.OS / Portfolio](https://github.com/quocbao201104/quocbao201104.github.io)** — interactive portfolio with command routing, multiple RAG modes/personas, Supabase pgvector retrieval, local deterministic embeddings, an OpenAI-compatible API surface, and server-side redaction boundaries; live LLM/RAG is currently disabled on the public deployment.
 - **[CD1-2](https://github.com/quocbao201104/CD1-2)** — Linux security monitoring lab combining Suricata, Wazuh, deterministic correlation/risk scoring, local IsolationForest signals, evidence-aware explanations, and controlled response policy.
-- **[Marketing Practitioner](https://github.com/quocbao201104/marketing-practitioner-skill)** — evidence-informed marketing reasoning skill with explicit epistemic, scope, causal-claim, measurement, and learning discipline.
 - **[Audio Ingest](https://github.com/quocbao201104/Audio-Ingest)** — queue-based YouTube audio ingestion pipeline using Redis workers, FFmpeg, object storage, recovery paths, and database synchronization.
 
 ---
