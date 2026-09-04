@@ -61,16 +61,16 @@ Most of my work sits at the intersection of **backend systems**, **AI workflows*
 
 ## ⟡ Building
 
-### 🔮 Shoracle — AI Copilot for Shopee Sellers
+### 🔮 [Shoracle](https://shoracle.com) — AI Sales Agent for Shopee Sellers
 
-> My main commercial project: a suggestion-first copilot that turns approved shop knowledge and relevant buyer context into reviewable replies inside the Shopee workflow — while the seller keeps final authority.
+> My main commercial project: starting as a suggestion-first copilot for Shopee sellers, with a staged path toward controlled auto-send once real-shop evidence supports it.
 
-- **Suggestion-first workflow** — captures the right conversation context, retrieves shop-approved evidence, generates a bounded suggestion, and lets the seller accept, edit, reject, or handle the reply manually
+- **MVP: suggestion-first** — captures the right conversation context, retrieves shop-approved evidence, generates a bounded suggestion, and lets the seller accept, edit, reject, or handle the reply manually
+- **Direction: controlled auto-send** — accept/edit/reject evidence is used to learn which intents can safely graduate toward seller-enabled automation, with per-intent thresholds, canary rollout, kill-switch, and rollback rather than unrestricted model authority
 - **Grounded and fail-safe** — answers from approved facts, FAQ, policy, product specs, and tone; weak evidence, wrong-shop state, stale context, or insufficient authority stops the path instead of encouraging a guess
-- **Clear trust boundaries** — the MV3 extension owns the Shopee browser session, local state, seller-visible UI, and final decision; the Fastify backend owns signed LLM/RAG, knowledge processing, license/config, and never needs marketplace session material
-- **Evidence-driven rollout** — local-first runtime state plus accept/edit/reject signals support real-shop dogfooding and a small design-partner cohort; broader automation remains separately gated by seller opt-in, per-intent thresholds, canary rollout, kill-switch, and rollback
+- **Clear trust boundaries** — the MV3 extension owns the Shopee browser session, local state, seller-visible UI, and final runtime guard; the Fastify backend owns signed LLM/RAG, knowledge processing, license/config, and never needs marketplace session material
 
-<sub>`TypeScript` · `Chrome MV3` · `Fastify` · `IndexedDB/Dexie` · `LLM + RAG`</sub> &nbsp;·&nbsp; **Active private development** &nbsp;·&nbsp; 🔒 Private source
+<sub>`TypeScript` · `Chrome MV3` · `Fastify` · `IndexedDB/Dexie` · `LLM + RAG`</sub> &nbsp;·&nbsp; **Active private development** &nbsp;·&nbsp; 🌐 [shoracle.com](https://shoracle.com) &nbsp;·&nbsp; 🔒 Private source
 
 ### 🧭 [Marketing Practitioner](https://github.com/quocbao201104/marketing-practitioner) — Decision-first Marketing for AI Agents
 
@@ -146,7 +146,7 @@ These are smaller or more inspectable public artifacts that show additional engi
 |------|-------|
 | **Languages & Runtime** | ![Node.js](https://img.shields.io/badge/Node.js-0F6E56?style=flat-square&logo=nodedotjs&logoColor=white) ![TypeScript](https://img.shields.io/badge/TypeScript-0F6E56?style=flat-square&logo=typescript&logoColor=white) ![Python](https://img.shields.io/badge/Python-0F6E56?style=flat-square&logo=python&logoColor=white) |
 | **Backend & Security** | ![Express](https://img.shields.io/badge/Express-534AB7?style=flat-square&logo=express&logoColor=white) ![Fastify](https://img.shields.io/badge/Fastify-534AB7?style=flat-square&logo=fastify&logoColor=white) ![JWT](https://img.shields.io/badge/Auth-JWT_·_OAuth2_·_RBAC-534AB7?style=flat-square&logo=jsonwebtokens&logoColor=white) |
-| **Data & Processing** | ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-1F6FEB?style=flat-square&logo=postgresql&logoColor=white) ![MySQL](https://img.shields.io/badge/MySQL-1F6FEB?style=flat-square&logo=mysql&logoColor=white) ![Redis](https://img.shields.io/badge/Redis-1F6FEB?style=flat-square&logo=redis&logoColor=white) ![Queues](https://img.shields.io/badge/Queue_Systems-1F6FEB?style=flat-square) |
+| **Data & Processing** | ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-1F6FEB?style=flat-square&logo=postgresql&logoColor=white) ![MySQL](https://img.shields.io/badge/MySQL-1F6FEB?style=flat-square&logo=mysql&logoColor=white) ![Redis](https://img.shields.io/badge/Redis-1F6FEB?style=flat-square) ![Queues](https://img.shields.io/badge/Queue_Systems-1F6FEB?style=flat-square) |
 | **AI & Agents** | ![LLM](https://img.shields.io/badge/LLM_Pipelines-7F77DD?style=flat-square) ![RAG](https://img.shields.io/badge/RAG-7F77DD?style=flat-square) ![Agents](https://img.shields.io/badge/Agent_Runtimes-7F77DD?style=flat-square) |
 | **Infra & Storage** | ![Cloudflare R2](https://img.shields.io/badge/Cloudflare_R2-F38020?style=flat-square&logo=cloudflare&logoColor=white) ![Cloudinary](https://img.shields.io/badge/Cloudinary-F38020?style=flat-square&logo=cloudinary&logoColor=white) ![Vercel](https://img.shields.io/badge/Vercel-F38020?style=flat-square&logo=vercel&logoColor=white) |
 
