@@ -61,28 +61,28 @@ Most of my work sits at the intersection of **backend systems**, **AI workflows*
 
 ## ⟡ Building
 
-### 🤖 OmniPilot — AI Sales Agent for Shopee
+### 🔮 Shoracle — AI Copilot for Shopee Sellers
 
-> My main commercial project: a seller-controlled agent that handles Shopee buyer conversations, grounds replies in shop knowledge, and can operate unattended without giving the model unrestricted authority.
+> My main commercial project: a suggestion-first copilot that turns approved shop knowledge and relevant buyer context into reviewable replies inside the Shopee workflow — while the seller keeps final authority.
 
-- **Failure-aware runtime** — local-first MV3 state, durable locks/debounce, idempotent decisions, retry/backoff, stale-send protection, and recovery when the browser service worker disappears
-- **Hard trust boundaries** — the extension owns the Shopee session; the backend owns LLM/RAG and secrets; signed requests connect the two without moving marketplace credentials across the boundary
-- **Bounded automation** — deterministic compliance and buyer-risk gates can bypass the LLM entirely; seller-controlled auto-send and a global kill-switch cap effect authority
-- **Grounded responses** — structured shop knowledge + RAG, validation, telemetry, and observable send decisions rather than opaque end-to-end generation
+- **Suggestion-first workflow** — captures the right conversation context, retrieves shop-approved evidence, generates a bounded suggestion, and lets the seller accept, edit, reject, or handle the reply manually
+- **Grounded and fail-safe** — answers from approved facts, FAQ, policy, product specs, and tone; weak evidence, wrong-shop state, stale context, or insufficient authority stops the path instead of encouraging a guess
+- **Clear trust boundaries** — the MV3 extension owns the Shopee browser session, local state, seller-visible UI, and final decision; the Fastify backend owns signed LLM/RAG, knowledge processing, license/config, and never needs marketplace session material
+- **Evidence-driven rollout** — local-first runtime state plus accept/edit/reject signals support real-shop dogfooding and a small design-partner cohort; broader automation remains separately gated by seller opt-in, per-intent thresholds, canary rollout, kill-switch, and rollback
 
-<sub>`TypeScript` · `Chrome MV3` · `Fastify` · `IndexedDB/Dexie` · `LLM + RAG`</sub> &nbsp;·&nbsp; **Active commercial project** &nbsp;·&nbsp; 🔒 Private source
+<sub>`TypeScript` · `Chrome MV3` · `Fastify` · `IndexedDB/Dexie` · `LLM + RAG`</sub> &nbsp;·&nbsp; **Active private development** &nbsp;·&nbsp; 🔒 Private source
 
-### 🧭 [Marketing Practitioner](https://github.com/quocbao201104/marketing-practitioner-skill) — Research-first Marketing Decision System for AI Agents
+### 🧭 [Marketing Practitioner](https://github.com/quocbao201104/marketing-practitioner) — Decision-first Marketing for AI Agents
 
-> An open-source agent skill and research track for turning messy market evidence into bounded marketing decisions — without collapsing research, strategy, platform behavior, commerce state, causality, and copy into one prompt.
+> An installable open-source Agent Skill for marketing work that needs stronger decision discipline: preserve what is already resolved, identify the open decision, load only relevant knowledge, and keep outputs inside the available evidence.
 
-- **Decision-first runtime** — starts from the current job, freezes already-resolved decisions, identifies the open decision, and loads only the knowledge that can materially change it
-- **Addressable JIT knowledge** — a lightweight routing layer maps logical knowledge IDs to the smallest relevant handbook/platform section, with deterministic lookup, integrity checks, and capability-aware fallback
-- **Evidence and claim discipline** — keeps observation, interpretation, causality, attribution, platform signals, product truth, commercial state, and uncertainty distinct instead of promoting weak evidence into stronger claims
-- **Cross-environment reasoning** — shared models cover customer research, positioning, messaging, diagnosis, experimentation, localization, social/content distribution, commerce, product discovery, and agent-mediated shopping across platform-specific modules
-- **Adversarial evaluation** — runtime architecture, routing, conceptual compression, and commerce extensions are reviewed with explicit claim ceilings rather than treating passing tests as proof of universal correctness
+- **Decision-first runtime** — classifies the current job, freezes approved state, names the unresolved decision, and avoids reopening strategy just because the final artifact is copy, email, a platform post, or a commerce task
+- **Addressable JIT knowledge** — logical knowledge IDs route agents to the smallest useful handbook, platform, commerce, or adaptation section; the current index validates at **252 routes / 225 evidence sources**
+- **Evidence and claim discipline** — keeps observation, interpretation, attribution, causality, commercial state, platform signals, local evidence, and product truth distinct instead of silently upgrading weak evidence into stronger claims
+- **Portable and locally extensible** — host-aware guidance covers Claude Code, ChatGPT, Cursor, and Codex, while scoped adaptation units specialize existing decisions without turning the repository into country packs or a cultural encyclopedia
+- **Research with explicit limits** — adversarial reviews, routing checks, and behavioral pilots report what they actually establish; the project records unresolved or non-advantage results instead of treating passing tests as universal proof
 
-<sub>`Agent Skill` · `Python tooling` · `JIT Knowledge Routing` · `Marketing Research` · `Commerce` · `Evaluation`</sub> &nbsp;·&nbsp; **Building in public / research in progress** &nbsp;·&nbsp; 🌐 [MIT-licensed open source](https://github.com/quocbao201104/marketing-practitioner-skill)
+<sub>`Agent Skill` · `Python tooling` · `JIT Knowledge Routing` · `Marketing Research` · `Localization` · `Evaluation`</sub> &nbsp;·&nbsp; **v1.2.0 · Building in public** &nbsp;·&nbsp; 🌐 [MIT-licensed open source](https://github.com/quocbao201104/marketing-practitioner)
 
 ---
 
