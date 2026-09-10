@@ -61,7 +61,7 @@ Most of my work sits at the intersection of **backend systems**, **AI workflows*
 
 ## ⟡ Building
 
-### 🔮 [Shoracle](https://shoracle.com) — AI Sales Agent for Shopee Sellers
+### 🔮 [SayDesk](https://saydesk.co) — AI Sales Agent for Shopee Sellers
 
 > My main commercial project: starting as a suggestion-first copilot for Shopee sellers, with a staged path toward controlled auto-send once real-shop evidence supports it.
 
@@ -70,7 +70,7 @@ Most of my work sits at the intersection of **backend systems**, **AI workflows*
 - **Grounded and fail-safe** — answers from approved facts, FAQ, policy, product specs, and tone; weak evidence, wrong-shop state, stale context, or insufficient authority stops the path instead of encouraging a guess
 - **Clear trust boundaries** — the MV3 extension owns the Shopee browser session, local state, seller-visible UI, and final runtime guard; the Fastify backend owns signed LLM/RAG, knowledge processing, license/config, and never needs marketplace session material
 
-<sub>`TypeScript` · `Chrome MV3` · `Fastify` · `IndexedDB/Dexie` · `LLM + RAG`</sub> &nbsp;·&nbsp; **Active private development** &nbsp;·&nbsp; 🌐 [shoracle.com](https://shoracle.com) &nbsp;·&nbsp; 🔒 Private source
+<sub>`TypeScript` · `Chrome MV3` · `Fastify` · `IndexedDB/Dexie` · `LLM + RAG`</sub> &nbsp;·&nbsp; **Active private development** &nbsp;·&nbsp; 🌐 [saydesk.co](https://saydesk.co) &nbsp;·&nbsp; 🔒 Private source
 
 ### 🧭 [Marketing Practitioner](https://github.com/quocbao201104/marketing-practitioner) — Research-grounded Marketing for AI Agents
 
