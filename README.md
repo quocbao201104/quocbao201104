@@ -61,7 +61,7 @@ Most of my work sits at the intersection of **backend systems**, **AI workflows*
 
 ## ⟡ Building
 
-### 🔮 [SayDesk](https://saydesk.co) — AI Sales Agent for Shopee Sellers
+### 🖥️ [SayDesk](https://saydesk.co) — AI Sales Agent for Shopee Sellers
 
 > My main commercial project: starting as a suggestion-first copilot for Shopee sellers, with a staged path toward controlled auto-send once real-shop evidence supports it.
 
