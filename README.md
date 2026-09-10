@@ -72,17 +72,17 @@ Most of my work sits at the intersection of **backend systems**, **AI workflows*
 
 <sub>`TypeScript` · `Chrome MV3` · `Fastify` · `IndexedDB/Dexie` · `LLM + RAG`</sub> &nbsp;·&nbsp; **Active private development** &nbsp;·&nbsp; 🌐 [shoracle.com](https://shoracle.com) &nbsp;·&nbsp; 🔒 Private source
 
-### 🧭 [Marketing Practitioner](https://github.com/quocbao201104/marketing-practitioner) — Decision-first Marketing for AI Agents
+### 🧭 [Marketing Practitioner](https://github.com/quocbao201104/marketing-practitioner) — Research-grounded Marketing for AI Agents
 
-> An installable open-source Agent Skill for marketing work that needs stronger decision discipline: preserve what is already resolved, identify the open decision, load only relevant knowledge, and keep outputs inside the available evidence.
+> An open-source Agent Skill for moving from customer evidence to marketing decisions and execution without losing adopted state, evidence boundaries, or the distinction between what is known and what is only hypothesized.
 
-- **Decision-first runtime** — classifies the current job, freezes approved state, names the unresolved decision, and avoids reopening strategy just because the final artifact is copy, email, a platform post, or a commerce task
-- **Addressable JIT knowledge** — logical knowledge IDs route agents to the smallest useful handbook, platform, commerce, or adaptation section; the current index validates at **252 routes / 225 evidence sources**
-- **Evidence and claim discipline** — keeps observation, interpretation, attribution, causality, commercial state, platform signals, local evidence, and product truth distinct instead of silently upgrading weak evidence into stronger claims
-- **Portable and locally extensible** — host-aware guidance covers Claude Code, ChatGPT, Cursor, and Codex, while scoped adaptation units specialize existing decisions without turning the repository into country packs or a cultural encyclopedia
-- **Research with explicit limits** — adversarial reviews, routing checks, and behavioral pilots report what they actually establish; the project records unresolved or non-advantage results instead of treating passing tests as universal proof
+- **Decision and work-state discipline** — frames the current job, preserves approved choices across multi-step work, and reopens decisions only when new evidence or unresolved dependencies actually require it
+- **JIT specialist knowledge** — routes agents to the smallest useful guidance across customer research, positioning, content, landing pages, email, search/discovery, commerce, paid media, commercial design, brand identity, and scoped localization
+- **Evidence and claim control** — keeps observation, interpretation, attribution, causality, commercial state, platform signals, local evidence, and product truth distinct so fluent copy cannot silently become stronger than its proof
+- **Falsification-first research** — architecture changes go through explicit research, adversarial freeze and implementation reviews, and bounded repairs; candidate chapters, specialists, or primitives are rejected when existing ownership can represent the decision without material loss
+- **Evaluation with explicit limits** — routing checks, behavioral harnesses, and stateful work-episode evaluation are used to test concrete failure hypotheses while recording unresolved, redundant, or non-advantage results instead of converting test passes into universal claims
 
-<sub>`Agent Skill` · `Python tooling` · `JIT Knowledge Routing` · `Marketing Research` · `Localization` · `Evaluation`</sub> &nbsp;·&nbsp; **v1.2.0 · Building in public** &nbsp;·&nbsp; 🌐 [MIT-licensed open source](https://github.com/quocbao201104/marketing-practitioner)
+<sub>`Agent Skill` · `Python tooling` · `JIT Knowledge Routing` · `Marketing Research` · `Evaluation` · `Open Source`</sub> &nbsp;·&nbsp; **Building in public** &nbsp;·&nbsp; 🌐 [MIT-licensed open source](https://github.com/quocbao201104/marketing-practitioner)
 
 ---
 
