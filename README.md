@@ -13,6 +13,16 @@
 </p>
 
 <p align="center">
+  <a href="https://shoracle.com">
+    <img src="https://img.shields.io/badge/Blog-Shoracle.com-0F6E56?style=for-the-badge&logo=readme&logoColor=white" alt="Shoracle.com blog" />
+  </a>
+</p>
+
+<p align="center">
+  <sub>Long-form notes on AI systems, agents, research, products, and the engineering decisions behind them.</sub>
+</p>
+
+<p align="center">
   <a href="https://baodev.me/">
     <img src="https://img.shields.io/badge/Portfolio-baodev.me-0F6E56?style=for-the-badge&logo=googlechrome&logoColor=white" />
   </a>
