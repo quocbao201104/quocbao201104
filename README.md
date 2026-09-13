@@ -84,6 +84,17 @@ Most of my work sits at the intersection of **backend systems**, **AI workflows*
 
 <sub>`Agent Skill` · `Python tooling` · `JIT Knowledge Routing` · `Marketing Research` · `Evaluation` · `Open Source`</sub> &nbsp;·&nbsp; **Building in public** &nbsp;·&nbsp; 🌐 [MIT-licensed open source](https://github.com/quocbao201104/marketing-practitioner)
 
+### ⚖️ [Vietnam Business Law Practitioner](https://github.com/quocbao201104/vietnam-business-law-practitioner) — Research-first Legal Decision Support for Vietnam
+
+> An open-source Agent Skill for founders and operators working through Vietnamese business-law decisions, separating durable legal reasoning from rules that must be verified against current or historically applicable authority.
+
+- **Business-first legal reasoning** — reconstructs material facts, dates, legal propositions, and decision dependencies before jumping from the user's label to a legal conclusion
+- **Accountable routing and composition** — routes work across BL1–BL8 with one accountable owner per material proposition so corporate, contract, dispute, tax, employment, regulatory, and cross-border analyses can compose without silently overwriting each other
+- **Live-law authority verification** — separates discovery from verification, locks document identity and lifecycle, checks effective periods and amendments, resolves controlling provisions in context, and preserves source drift or unresolved currentness instead of treating the first search hit as law
+- **Action-readiness discipline** — keeps legal possibility distinct from readiness to act and returns options, consequences, unresolved facts or authority, evidence needs, and next actions while preserving uncertainty where the record is incomplete
+
+<sub>`Agent Skill` · `Vietnam Business Law` · `JIT Legal Routing` · `Live-law Verification` · `Legal Research` · `Open Source`</sub> &nbsp;·&nbsp; **Early dogfooding** &nbsp;·&nbsp; 🌐 [MIT-licensed open source](https://github.com/quocbao201104/vietnam-business-law-practitioner)
+
 ---
 
 ## ⟡ Shipped
