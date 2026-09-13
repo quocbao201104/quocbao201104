@@ -40,7 +40,7 @@
 
 ## ⟡ About
 
-Most of my work sits at the intersection of **backend systems**, **AI workflows**, and **operational reliability**. I care about what happens outside the happy path: retries, restarts, stale state, partial failure, authorization boundaries, and whether a system can explain why it made a decision.
+Most of my work sits at the intersection of **backend systems**, **agent systems**, and **applied research**. I build systems that have to operate under uncertainty: durable state, explicit routing, bounded model authority, evidence-aware decisions, and recovery when the happy path breaks. I also design Agent Skills and knowledge architectures that turn domain research into usable, testable decision systems rather than static prompt or document collections.
 
 <table>
 <tr>
@@ -48,10 +48,10 @@ Most of my work sits at the intersection of **backend systems**, **AI workflows*
 
 **What I focus on**
 
-- Reliable backend systems under real workloads
-- AI pipelines with explicit quality and policy gates
-- Durable state, recovery, and idempotent execution
-- Security and observability as system properties
+- Reliable backend and agent systems under real workloads
+- Agent Skill architecture, JIT knowledge routing, and stateful composition
+- Evidence, authority, provenance, and decision boundaries
+- Research and evaluation for concrete failure hypotheses
 
 </td>
 <td valign="top" width="50%">
@@ -59,9 +59,9 @@ Most of my work sits at the intersection of **backend systems**, **AI workflows*
 **How I work**
 
 - Design for failure before polishing the demo
-- Prefer explicit routing and state transitions
-- Bound model authority with deterministic controls
-- Treat evidence, telemetry, and recovery as first-class
+- Turn fuzzy domains into explicit state, ownership, and routing
+- Separate observed evidence, inference, and model authority
+- Falsify assumptions with adversarial review and behavioral evaluation
 
 </td>
 </tr>
