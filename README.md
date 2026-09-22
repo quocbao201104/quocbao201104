@@ -83,19 +83,6 @@ Most of my work sits at the intersection of **backend systems**, **agent systems
 
 ---
 
-## ⟡ Building
-
-### 🖥️ [SayDesk](https://saydesk.co) — AI Sales Agent for Shopee Sellers
-
-> My main commercial project: starting as a suggestion-first copilot for Shopee sellers, with a staged path toward controlled auto-send once real-shop evidence supports it.
-
-- **MVP: suggestion-first** — captures the right conversation context, retrieves shop-approved evidence, generates a bounded suggestion, and lets the seller accept, edit, reject, or handle the reply manually
-- **Direction: controlled auto-send** — accept/edit/reject evidence is used to learn which intents can safely graduate toward seller-enabled automation, with per-intent thresholds, canary rollout, kill-switch, and rollback rather than unrestricted model authority
-- **Grounded and fail-safe** — answers from approved facts, FAQ, policy, product specs, and tone; weak evidence, wrong-shop state, stale context, or insufficient authority stops the path instead of encouraging a guess
-- **Clear trust boundaries** — the MV3 extension owns the Shopee browser session, local state, seller-visible UI, and final runtime guard; the Fastify backend owns signed LLM/RAG, knowledge processing, license/config, and never needs marketplace session material
-
-<sub>`TypeScript` · `Chrome MV3` · `Fastify` · `IndexedDB/Dexie` · `LLM + RAG`</sub> &nbsp;·&nbsp; **Active private development** &nbsp;·&nbsp; 🌐 [saydesk.co](https://saydesk.co) &nbsp;·&nbsp; 🔒 Private source
-
 ### 🧭 [Marketing Practitioner](https://github.com/quocbao201104/marketing-practitioner) — Research-grounded Marketing for AI Agents
 
 > An open-source Agent Skill for moving from customer evidence to marketing decisions and execution without losing adopted state, evidence boundaries, or the distinction between what is known and what is only hypothesized.
