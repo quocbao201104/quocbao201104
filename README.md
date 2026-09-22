@@ -83,7 +83,7 @@ Most of my work sits at the intersection of **backend systems**, **agent systems
 
 ---
 
-### 🧭 [Marketing Practitioner](https://github.com/quocbao201104/marketing-practitioner) — Research-grounded Marketing for AI Agents
+### 🧭 [Marketing Agent Skills](https://github.com/quocbao201104/marketing-agent-skills) — Research-grounded Marketing for AI Agents
 
 > An open-source Agent Skill for moving from customer evidence to marketing decisions and execution without losing adopted state, evidence boundaries, or the distinction between what is known and what is only hypothesized.
 
